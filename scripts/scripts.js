@@ -58,7 +58,7 @@ function entrarConta(){
     });
 
     if (usuarioEncontrado) {
-        window.location.href = "index.html";
+        window.location.href = "principal.html";
     } else {
         document.getElementById('erro').innerHTML= "Credenciais invalidas!"
 
