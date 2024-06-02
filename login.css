@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("imagens/7SYx.gif");
+    background-size: 100vw 110vh;
+    background-repeat: no-repeat;
+  }
+  
+  .login,
+  .registro {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+  }
+  
+  .login h3,
+  .registro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login form,
+  .registro form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login form input,
+  .registro form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fdfae7;
+    border-radius: 3px;
+  }
+  
+  .login form button,
+  .registro form button {
+    background-color: #fdfae7;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login form button:hover,
+  .registro form button:hover {
+    background-color: #d7f091;
+  }
+  
+  .login p,
+  .registro p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login a,
+  .registro a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .registro #numerosAdicionais {
+    margin-bottom: 10px;
+  }
+  
+  .registro #numerosAdicionais input {
+    margin-bottom: 5px;
+  }
+  
+  .registro label {
+    margin-bottom: 5px;
+  }
