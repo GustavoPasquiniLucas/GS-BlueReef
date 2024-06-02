@@ -37,10 +37,15 @@ nav a {
     color: #000000;
     padding: 10px;
     font-size: 1rem;
+    transition: color 0.5s;
 }
 
 nav a:hover {
     color: #23527c;
+}
+
+nav button{
+    transition:  0.5s;
 }
 
 article {
@@ -61,4 +66,29 @@ footer {
     color: #666;
     margin: 0;
     font-size: 0.875rem;
+}
+
+nav .cadastro {
+    margin: 2px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+nav .cadastro:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav #entrar {
+    background-color: #f8e041;
+}
+
+nav #entrar:hover, #registrar:hover{
+    background-color: #a18c00 ;
+
+}
+
+button #botao__login:hover, #botao__cadastro:hover{
+    color: white;
 }
