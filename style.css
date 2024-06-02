@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+:root{
+    --cor-background-footer: #fdfae7;
+    --cor-texto: #000000;
+    --cor-texto-hover:  #23527c;
+    --cor-backgorund-padrao: white;
+    --cor-botao-padrao:  #f8e041;
+    --cor-botao-hover: #a18c00;
+    --cor-texto-footer:#666;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -12,7 +21,7 @@ body {
 }
 
 header {
-    background-color: #fdfae7;
+    background-color: var(--cor-background-footer);
     padding: 20px;
 }
 
@@ -34,14 +43,14 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #000000;
+    color: var(--cor-texto);
     padding: 10px;
     font-size: 1rem;
     transition: color 0.5s;
 }
 
 nav a:hover {
-    color: #23527c;
+    color: var(--cor-texto-hover);
 }
 
 nav button{
@@ -50,45 +59,32 @@ nav button{
 
 article {
     padding: 0px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.texto{
+    width: 60%;
+}
 img {
-    width: 100%;
-    height: 400px;
+    width: 30vw;
+    height: 25vw;
     object-fit: cover;
     border-radius: 10px;
 }
+.invertida{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 footer {
-    background-color: #fdfae7;
+    background-color: var(--cor-background-footer);
     padding: 10px;
     text-align: center;
-    color: #666;
+    color: var(--cor-texto-footer);
     margin: 0;
     font-size: 0.875rem;
 }
 
-nav .cadastro {
-    margin: 2px;
-    padding: 15px;
-    border-radius: 5px;
-    border: none;
-}
-
-nav .cadastro:hover {
-    color: white;
-    text-decoration: none;
-}
-
-nav #entrar {
-    background-color: #f8e041;
-}
-
-nav #entrar:hover, #registrar:hover{
-    background-color: #a18c00 ;
-
-}
-
-button #botao__login:hover, #botao__cadastro:hover{
-    color: white;
-}
