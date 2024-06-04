@@ -21,6 +21,8 @@ body {
     padding: 0;
     font-size: 1rem;
     background-color: var(--cor-backgorund-padrao);
+}
+.background{
     transition: background-color .5s;
 }
 
@@ -126,7 +128,7 @@ footer {
     top: 50%;
     left: 2px;
     transform: translateY(-50%);
-    transition: background-color .5s;
+    transition: left .5s;
 }
 
 .btn.active::before{
