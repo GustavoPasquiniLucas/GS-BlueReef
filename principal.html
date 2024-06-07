@@ -5,31 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BlueReef</title>
-  <link rel="icon" href="./imagens/OIG4.1Q1e_gMMIUUrd22u.png">
+  <link rel="icon" href="./imagens/OIG4.1Q1e_gMMIUUrd22u.jpg">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 </head>
 
 <body>
-  <header class="cabecalho">
+  <header>
     <nav>
       <ul>
-        <li><img src="./imagens/OIG4.1Q1e_gMMIUUrd22u.png" alt="logo" class="logo"></li>
+        <li><img src="./imagens/OIG4.1Q1e_gMMIUUrd22u.jpg" alt="logo" class="logo"></li>
         <li><a href="#problema">O Problema</a></li>
         <li><a href="#tecn">Tecnologia</a></li>
         <li><a href="#objetivos">Objetivos</a></li>
         <li><a href="#publico">Público</a></li>
         <li><a href="#beneficios">Benefícios</a></li>
         <li><a href="#dia_dia">Dia a Dia</a></li>
-        <ul>
-          <li>
-            <div class="btn"></div>
-          </li>
-        </ul>
       </ul>
     </nav>
   </header>
-  <main class="background">
+  <main>
     <article id="problema" class="invertida">
       <div class="texto">
         <h2>O problema que a Blue Reef irá resolver</h2>
@@ -110,23 +105,11 @@
       </figure>
     </article>
   </main>
-  <footer class="rodape">
+  <footer>
     <p>&copy; 2024 Blue Reef. Todos os direitos reservados.</p>
   </footer>
 </body>
-<script>
-  const btn = document.querySelector('.btn');
-  const background = document.querySelector('.background');
-  const cabecalho = document.querySelector('.cabecalho');
-  const rodape = document.querySelector('.rodape');
 
-  btn.onclick = function(){
-    this.classList.toggle('active');
-    background.classList.toggle('active');
-    cabecalho.classList.toggle('active');
-    rodape.classList.toggle('active')
-  }
-</script>
 </html>
 
    
