@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -5,28 +6,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BlueReef</title>
-  <link rel="icon" href="./imagens/OIG4.1Q1e_gMMIUUrd22u.jpg">
+  <link rel="icon" href="./imagens/OIG4.1Q1e_gMMIUUrd22u.png">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 
 <body>
-  <header>
+  <header class="cabecalho">
     <nav>
       <ul>
-        <li><img src="./imagens/OIG4.1Q1e_gMMIUUrd22u.jpg" alt="logo" class="logo"></li>
+        <li><img src="./imagens/OIG4.1Q1e_gMMIUUrd22u.png" alt="logo" class="logo"></li>
         <li><a href="#problema">O Problema</a></li>
         <li><a href="#tecn">Tecnologia</a></li>
         <li><a href="#objetivos">Objetivos</a></li>
         <li><a href="#publico">Público</a></li>
         <li><a href="#beneficios">Benefícios</a></li>
         <li><a href="#dia_dia">Dia a Dia</a></li>
+        <ul>
+          <li>
+            <div class="btn"></div>
+          </li>
+        </ul>
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="background">
+    <section class="swiper1 background">
+      <div class="swiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="imagens/pexels-photo-734973.jpeg" alt="imagem 1"></div>
+              <div class="swiper-slide"><img src="imagens/pexels-photo-1456291.jpeg" alt="imagem 2"></div>
+              <div class="swiper-slide"><img src="imagens/pexels-photo-312105.jpeg" alt="imagem 3"></div>
+          </div>
+      </div>
+  </section>
     <article id="problema" class="invertida">
-      <div class="texto">
+        <div class="texto">
         <h2>O problema que a Blue Reef irá resolver</h2>
         <p> O problema que nós iremos resolver é o branqueamento de corais que é um sério problema antropológico a ser
           resolvido pelos mesmos que o causaram, nós mesmos. A principal causa dessa morte em massa de corais é o aumento
@@ -105,11 +124,12 @@
       </figure>
     </article>
   </main>
-  <footer>
+  <footer class="rodape">
     <p>&copy; 2024 Blue Reef. Todos os direitos reservados.</p>
   </footer>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="scripts/script_principal.js"></script>
 </html>
 
    
